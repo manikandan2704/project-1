@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+.container{
+    width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact-info{
+	background-color:skyblue;
+}
+.info{
+	display: flex;
+    justify-content: space-between;
+    height: 43px;
+    color: #444;
+    align-items: center;
+}
+.info a{
+	color:#fff;
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 43px;
+    color: #444;
+	height: 75px;
+    margin: 0;
+    padding: 10px 0;
+    padding-top: 20px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: "Raleway", sans-serif;
+}
+.header ul li{
+	display:inline-block;
+	font-size: 10px;
+	align-items: center;
+	padding-right:4px;
+	padding-left:4px;
+}
+.header img{
+	height:28px;
+}
+
+
+
+.banner-flex{
+margin-top: -21px;	
+    
+}
+.banner{
+	position:relative;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;	
+}
+.banner .banner-image{
+	background-image:url(../slide-3.jpg);
+    position: absolute;
+	width:100%;
+	height:500px;
+	background-size:cover;
+}
+.banner p{
+	margin: 0 auto 30px auto;
+    color: #555555;
+	font-family:sans-serif;
+	
+}
+
+
+.banner-1{
+	position:relative;
+	text-align: center;
+	top: 300px;
+	left: 136px;
+	height:180px;
+	width:75%;
+	margin-bottom:30px;
+	background-color:#fff;
+	box-shadow: 0px -4px skyblue;
+}
+
+.banner-1 h1{
+	color: #2f2f2f;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+	font-family:sans-serif;
+}
+.banner-1 button{
+	font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+	height:39px;
+    color: #fff;
+    border: 0;
+    background: deepskyblue;
+	box-shadow:1px 1px 0px opx(skyblue);
+}
+
+
+
+
+
+.content-flex{
+	padding-top: 300px ;
+	padding-bottom:100px;
+ 
+}
+.content{
+	display:flex;
+	height:auto;
+	background-color:#fff;
+}
+.content-1{
+	width:25%;
+	margin-left: 35px;
+    margin-right: 35px;
+}
+.content-1 i{
+	    font-size: 48px;
+    line-height: 1;
+	color:deepskyblue;
+}
+.content-1 h1{
+    font-family: sans-serif;
+    font-size: 18px;
+	font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.content-1 p{
+	margin-top:23px;
+	font-family: system-ui;
+	color: grey;
+	font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0
+}
+
+
+
+
+.important-flex{
+	text-align:center;
+	background: #3fbbc0;
+    color: #fff;
+    background-size: cover;
+    padding: 50px 0;
+}
+.important h1{
+	letter-spacing:1px;
+	padding-top:40px;
+	color:#fff;
+	font-size:28px;
+	font-family:sans-serif;
+	font-weight:600;
+}
+.important p{
+	padding-top:15px;
+	color:#fff;
+	font-family:sans-serif;
+	font-size:16px;
+}
+.important button{
+	font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 25px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+	background-color:deepskyblue;
+	color:#fff;
+	}
+	
+	
+	
+	.about-flex{
+		margin-top:50px;
+	}
+	.about-flex h2{
+	font-size: 32px;
+    font-weight: bold;
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+	text-align:center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+	}
+	.about-flex hr{
+		width:46px;
+		position:relative;
+		border:solid 1px skyblue;
+		left:47.8%;
+		bottom:30px;
+	}
+	.about-flex p{
+		text-align:center;
+		font-family: "Open Sans", sans-serif;
+        color: #444444;
+	}
+	.about{
+		display:flex;
+	}
+	.about-1{
+		margin-top:20px;
+		width:50%;
+		height:100px;
+	}
+	.about-1 img{
+		max-width: 100%;
+        height: auto;
+	}
+	.about-1 h3{
+		font-weight: 600;
+        font-size: 26px;
+		margin-left:15px;
+		color: #444444;
+		font-family: "Roboto", sans-serif;
+	}
+	.about-1 p{
+		font-style: italic!important;
+		font-size:14px;
+		font-family: "Open Sans", sans-serif;
+        color: #444444;
+		margin-top: 15px;
+		margin-left:15px;
+	}
+	.about-1 p i{
+		color:skyblue;
+		font-size:20px;
+		text-align:left;
+	}
+	.paragraph p{
+		
+		text-align:left;
+	}
+	
+	
