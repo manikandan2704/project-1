@@ -203,67 +203,64 @@ margin-top: -21px;
 	font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 	text-align:center;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
+	position:relative;
+	bottom:10px;
 	}
 	.about-flex hr{
-		width:46px;
-		position:relative;
-		border:solid 1px skyblue;
-		left:47.8%;
-		bottom:30px;
+		width: 65px;
+		right:48.5%;
+		border: solid 1px skyblue;
+		position:absolute;
+		font-weight:500;
 	}
 	.about-flex p{
-		text-align:center;
 		font-family: "Open Sans", sans-serif;
         color: #444444;
+		margin-top:20px;
+		font-size:14px;
 	}
 	.about{
 		display:flex;
+		height:auto;
 	}
 	.about-1{
 		margin-top:20px;
 		width:50%;
-		height:100px;
+		padding-left:20px;
+	}
+	.about-1 p{
+		padding-top:5px;
 	}
 	.about-1 img{
 		max-width: 100%;
         height: auto;
 	}
+	.about-1 p i{
+		font-size: 20px;
+        padding-right: 4px;
+        color: #3fbbc0;
+	}
 	.about-1 h3{
 		font-weight: 600;
         font-size: 26px;
-		margin-left:15px;
 		color: #444444;
 		font-family: "Roboto", sans-serif;
 	}
-	.about-1 p{
+	.italic{
 		font-style: italic!important;
-		font-size:14px;
-		font-family: "Open Sans", sans-serif;
-        color: #444444;
-		margin-top: 15px;
-		margin-left:15px;
 	}
-	.about-1 p i{
-		color:skyblue;
-		font-size:20px;
-		text-align:left;
+	.italic-1{
+		padding-top:30px;
 	}
-	.paragraph p{
-		text-align:left;
-		margin-top:30px;
-		font-family: sans-serif;
-        color: #444444;
-	}
+	
+	
 	
 	
 	
 	
 	.details{
 		display:flex;
-		margin-top:340px;
+		margin-top:px;
 		height:auto;
 		padding-top:80px;
 		
@@ -274,24 +271,22 @@ margin-top: -21px;
 		box-shadow:-1px -1px 5px -3px;
 		margin-left:10px;
 		margin-right:10px;
-		color:#
+		box-sizing: border-box;
 	}
 	.details-1 h3{
-		margin-top:10px;
-		font-size: 42px;
-        line-height: 24px;
-        display: block;
-        font-weight: 700;
-        color: #555555;
-        margin-left: 50px;
-		margin-right:20px;
-		font-family: "Open Sans", sans-serif;
+	font-size: 42px;
+	font-family:sans-serif;
+	margin-top:30px;
+    line-height: 24px;
+    display: block;
+    font-weight: 700;
+    color: #555555;
+    margin-left: 50px;
 	}
 	.details-1 h3 i{
-		display: block;
-    font-size: 30px;
-    color: #3fbbc0;
-    float: left;
+		display: inline-block;
+        font-size: 30px;
+        color: #3fbbc0;  
 	}
 	.details p {
       padding: 30px 0 0 0;
@@ -307,5 +302,63 @@ margin-top: -21px;
        font-size: 15px;
        font-family: "Poppins", sans-serif;
 	   text-decoration: none;
+	}
+	
+	
+	
+	
+	
+	
+	.lab{
+		display:flex;
+		margin-top:80px;
+	}
+	.lab-1{
+		width:50%;
+		height:400px;
+	}
+	.lab-1 h3{
+		font-size: 20px;
+        font-weight: 550;
+        font-family: "Roboto", sans-serif;
+		margin: 5px 0 10px 60px;
+	}
+	.lab-1 p{
+       font-size: 15px;
+       color: #848484;
+       margin-left: 60px;
+	   margin-right:10px;
+	   margin-top: 0;
+       margin-bottom: 3rem;
+	}
+	.lab-1 img{
+		width:100%;
+		background-position: center center;
+        background-size: cover;
+        height: 400px;
+	}
+	
+	
+	
+	
+	
+	
+	.service-flex{
+		margin-top:60px;
+	}
+	.service-flex h1{
+		text-align:center;
+	}
+	.service-flex p{
+		text-align:center;
+	}
+	.service{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.service-1{
+		width:33.33%;
+		outline:solid 1px;
+		height:300px;
 	}
 	
