@@ -268,28 +268,20 @@ margin-top: -21px;
 	.details-1{
 		width:25%;
 		height:200px;
-		box-shadow:-1px -1px 5px -3px;
 		margin-left:10px;
 		margin-right:10px;
-		box-sizing: border-box;
+		box-shadow: -10px -5px 40px 0 rgb(0 0 0 / 10%);
+}
 	}
-	.details-1 h3{
-	font-size: 42px;
-	font-family:sans-serif;
-	margin-top:30px;
-    line-height: 24px;
-    display: block;
-    font-weight: 700;
-    color: #555555;
-    margin-left: 50px;
-	}
-	.details-1 h3 i{
-		display: inline-block;
+    .details-1 span h3{
+		font-size:40px;
+	}	
+	.details-1  i{
         font-size: 30px;
         color: #3fbbc0;  
 	}
 	.details p {
-      padding: 30px 0 0 0;
+      padding: 30px 3px 1px 23px;
       margin: 0;
       font-family: "Roboto", sans-serif;
       font-size: 14px;
@@ -297,6 +289,7 @@ margin-top: -21px;
 	.details a{
        font-weight: 600;
        display: block;
+	   margin-left: 23px;
        margin-top: 20px;
        color: #7b7b7b;
        font-size: 15px;
