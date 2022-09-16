@@ -351,7 +351,138 @@ margin-top: -21px;
 	}
 	.service-1{
 		width:33.33%;
-		outline:solid 1px;
 		height:300px;
 	}
 	
+	
+	
+	
+	
+	
+	
+
+	.appoinment{
+		display:flex;
+		flex-wrap:wrap;
+		height:auto;
+	}
+	.appoinment h1{
+	padding-top:60px;	
+	text-align: center;
+	width:100%;
+	margin-bottom:15px;
+	font-size: 32px;
+    font-weight: bold;
+    position: relative;
+	font-family: "Roboto", sans-serif
+	}
+	.appoinment hr{
+		width: 54px;
+    border: solid 1px aqua;
+    margin-bottom: 15px;
+	margin-left:47%;
+	}
+	.appoinment p{
+		text-align:center;
+		font-family: "Open Sans", sans-serif;
+        color: #444444;
+		margin-bottom:30px;
+		font-size: 14px;
+	}
+	.appoinment-1{
+		width:33.33%;
+		height: 44px;
+		border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+        padding: 10px;
+		
+		margin-bottom:20px;
+	}
+	.form-control{
+		display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+	}
+	.appoinment-2{
+		width:33.33%;
+		height: 44px;
+		border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+        padding: 10px !important;
+	}
+	.form-select{
+		    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+	}
+	button{
+	background: #3fbbc0;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 50px;
+	margin-left: 450px;
+	margin-top:20px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+	}
+	
+	
+	
+	
+	
+.department-flex{
+	margin-top:70px;
+	width:100%;
+}	
+.department{
+	display:flex;
+}
+.cardiology{
+	display:flex;
+	width:25%;
+	height:auto;
+	
+}
+.cardiology h3{
+	display:block;
+	margin-left:20px;
+}
+.cardiology-1{
+	width:75%;
+	outline:solid 1px;
+	height:auto;
+}
+.department-flex h1{
+	text-align: center;
+	width:100%;
+	margin-bottom:15px;
+	font-size: 32px;
+    font-weight: bold;
+    position: relative;
+	font-family: "Roboto", sans-serif
+}
+.department-flex p{
+	text-align:center;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+	margin-bottom:30px;
+	font-size: 14px;
+}
