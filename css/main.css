@@ -402,6 +402,7 @@ margin-top: -21px;
 	.form-control{
 		display: block;
     width: 100%;
+	    height: 44px;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -411,11 +412,10 @@ margin-top: -21px;
     background-clip: padding-box;
     border: 1px solid #ced4da;
 	}
-	
-	
-	.text-area{
-		text-align:center;
-	}
+.text-area{
+	width: 100%;
+    padding: 10px 9px
+}	
 	.text-area button{
 	font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -437,9 +437,8 @@ margin-top: -21px;
         padding: 10px !important;
 	}
 	.form-select{
-		    display: block;
     width: 100%;
-    padding: 0.375rem 0.75rem;
+    padding:10px 35px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -465,12 +464,21 @@ margin-top: -21px;
 .cardiology{
 	width:25%;
 	height:auto;
-	
 }
+
 .cardiology h3{
 	display:block;
-	margin-left:15px;
 	margin-right:15px;
+	color:#55555;
+	font-family: "Roboto", sans-serif;
+	margin-bottom:10px;
+	font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.cardiology p{
+	font-size: 140px;
+    margin-bottom: 0;
 }
 .cardiology-1{
 	width:75%;
@@ -479,33 +487,37 @@ margin-top: -21px;
 }
 .cardiology-1 h3{
 	font-size: 26px;
+	margin-right:20px;
     font-weight: 600;
     margin-bottom: 20px;
     color: #3fbbc0;
 	font-family: "Roboto", sans-serif;
 }
-.cardiology-1 p{
-	margin-left:-10px;
-}
 .cardiology-1 img{
 	float: left;
     max-width: 300px;
-    padding: 0 15px 15px 0;
+    margin: 0 10px 15px 0;
 	height:auto;
 }
 .department-flex h1{
 	text-align: center;
+	position:relative;
 	width:100%;
-	margin-bottom:15px;
+	margin-bottom:20px;
 	font-size: 32px;
     font-weight: bold;
     position: relative;
 	font-family: "Roboto", sans-serif
 }
 .department-flex p{
-	text-align:center;
 	font-family: "Open Sans", sans-serif;
     color: #444444;
 	margin-bottom:30px;
 	font-size: 14px;
+}
+.department-flex hr{
+	width:50px;
+	margin-left:47%;
+	border:solid 1px aqua;
+	margin-bottom:20px;
 }
