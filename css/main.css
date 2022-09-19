@@ -14,22 +14,36 @@
     padding-right: 15px;
 }
 .contact-info{
+	height:auto;
+	width:100%;
 	background-color:skyblue;
 }
 .info{
 	display: flex;
     justify-content: space-between;
-    height: 43px;
+	color: #fff;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
     color: #444;
     align-items: center;
 }
 .info a{
+	color:#fff;
+	text-decoration:none;
+}
+.info h4{
 	color:#fff;
 }
 
 
 
 
+
+.header-flex{
+	height:auto;
+    width:100%;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -50,52 +64,65 @@
 	align-items: center;
 	padding-right:4px;
 	padding-left:4px;
+	cursor:pointer;
+}
+.header ul li:hover{
+	color:skyblue;
+	transition: all 0.2s
 }
 .header img{
 	height:28px;
 }
+.list{
+	text-align:center;
+	line-height: 30px;
+    height: 30px;
+	width:200px;
+	background-color:skyblue;
+	border:soild 2px #fff;
+	color:#fff;
+}
+.list:hover{
+    transition: all 0.2s;
+    color:black;
+}
+
 
 
 
 .banner-flex{
-margin-top: -21px;	
-    
+   height:auto;
+   width:100%;	
 }
-.banner{
-	position:relative;
-	text-align: center;
-    background: rgba(255, 255, 255, 0.9);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 5px;	
-}
-.banner .banner-image{
+ .banner-image{
 	background-image:url(../slide-3.jpg);
-    position: absolute;
+    position: relative;
 	width:100%;
-	height:500px;
+	height:600px;
 	background-size:cover;
 }
-.banner p{
-	margin: 0 auto 30px auto;
+.banner-1 p{
+	margin-right:20px;
+	margin-right:20px;
     color: #555555;
 	font-family:sans-serif;
-	
+	text-align:center;
+	font-size:15px;
 }
 .banner-1{
-	position:relative;
+	position:absolute;
 	text-align: center;
-	top: 300px;
+	top:500px;
 	left: 136px;
 	height:180px;
-	width:75%;
-	margin-bottom:30px;
+	width:80%;
 	background-color:#fff;
-	box-shadow: 0px -4px skyblue;
+	box-shadow: 0px -4px deepskyblue;
 }
-.banner-1 h1{
+.banner-1 h2{
 	color: #2f2f2f;
     margin-bottom: 20px;
+	margin-top:20px;
     font-size: 36px;
     font-weight: 700;
 	font-family:sans-serif;
@@ -120,8 +147,10 @@ margin-top: -21px;
 
 
 .content-flex{
-	padding-top: 300px ;
+	padding-top: 100px ;
 	padding-bottom:100px;
+	height:auto;
+	width:100%;
 }
 .content{
 	display:flex;
@@ -163,6 +192,8 @@ margin-top: -21px;
     color: #fff;
     background-size: cover;
     padding: 50px 0;
+	height:auto;
+	width:100%;
 }
 .important h1{
 	letter-spacing:1px;
@@ -183,7 +214,6 @@ margin-top: -21px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    
     padding: 10px 35px;
     border-radius: 25px;
     margin-top: 10px;
@@ -196,6 +226,8 @@ margin-top: -21px;
 	
 	.about-flex{
 		margin-top:50px;
+		height:auto;
+		width:100%;
 	}
 	.about-flex h2{
 	font-size: 32px;
@@ -257,13 +289,15 @@ margin-top: -21px;
 	
 	
 	
-	
+	.details-flex{
+		height:auto;
+		width:100%;
+	}
 	.details{
 		display:flex;
 		margin-top:px;
 		height:auto;
 		padding-top:80px;
-		
 	}
 	.details-1{
 		width:25%;
@@ -271,7 +305,6 @@ margin-top: -21px;
 		margin-left:10px;
 		margin-right:10px;
 		box-shadow: -10px -5px 40px 0 rgb(0 0 0 / 10%);
-}
 	}
     .details-1 span h3{
 		font-size:40px;
@@ -301,7 +334,10 @@ margin-top: -21px;
 	
 	
 	
-	
+	.lab{
+		width:100%;
+		height:auto;
+	}
 	.lab{
 		display:flex;
 		margin-top:80px;
@@ -337,6 +373,8 @@ margin-top: -21px;
 	
 	
 	.service-flex{
+		height:auto;
+		width:100%;
 		margin-top:60px;
 	}
 	.service-flex h1{
@@ -360,7 +398,11 @@ margin-top: -21px;
 	
 	
 	
-
+    .appoinment-flex{
+		height:auto;
+		width:100%;
+		
+	}
 	.appoinment{
 		display:flex;
 		flex-wrap:wrap;
@@ -414,16 +456,30 @@ margin-top: -21px;
 	}
 .text-area{
 	width: 100%;
-    padding: 10px 9px
+    padding: 10px 10px;
+	
+}
+.text-area .form-control{
+	display: block;
+    width: 100%;
+    padding: 52px 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3.5;
+    color: #212529;
+	margin-bottom:40px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
 }	
 	.text-area button{
 	font-family: "Roboto", sans-serif;
     font-weight: 500;
+	margin-left:400px;
     font-size: 16px;
     letter-spacing: 1px;
     padding: 10px 35px;
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: 2px solid #fff;
     background-color: deepskyblue;
     color: #fff;
@@ -521,3 +577,276 @@ margin-top: -21px;
 	border:solid 1px aqua;
 	margin-bottom:20px;
 }
+
+
+
+
+.testimonal-flex{
+	height:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	width:100%;
+}
+.testimonal{
+	display:flex;
+	height:auto;
+	margin-top:30px;
+	width:100%;
+}
+.testimonal-1{
+	width:33.33%;
+	height:auto;	
+}
+.testimonal-flex h2{
+	font-size: 32px;
+	font-family: "Roboto", sans-serif;
+	text-align:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.testimonal-flex p{
+	text-align:center;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+	font-size:13px;
+}
+.testimonal img{
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    border: 6px solid #fff;
+}
+.testimonal-1 p{
+	color:grey;
+	font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: #f0fafa;
+    position: relative;
+    border-radius: 6px;
+    position: relative;
+}
+.testimonal-1 i{
+color:skyblue;	
+}
+.testimonal-1 h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #111;
+  font-family: "Roboto", sans-serif;
+}
+
+.testimonal-1 h5{
+    font-size: 14px;
+    color: #999;
+	margin-left:45px;
+}
+.swiper{
+    display:flex;
+    justify-content: center;
+	margin-top: 45px;
+}
+.swiper-1{
+	width: 14px;
+    height: 14px;
+	margin-left:3px;
+	margin-right:3px;
+    background-color: #fff;
+    border: 1px solid #3fbbc0;
+	border-radius: 12px;
+}
+
+
+
+
+
+.doctor-flex{
+	height:auto;
+	width:100%;
+}
+.doctor-flex h2{
+	font-size: 32px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+	text-align:center;
+    position: relative;
+	margin-bottom:15px;
+}
+.doctor-flex hr{
+	position:absolute;
+	width:50px;
+	border:solid 1px skyblue;
+	left:48%;
+}
+.doctor-flex p{
+	text-align:center;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+	font-size:12px;
+	margin-top:30px;
+}
+.doctor{
+	display:flex;
+}
+.doctor-1{
+	margin-top:30px;
+	padding:10px 10px;
+	width:25%;
+	height:auto;
+	position:relative;
+}
+.doctor-1 img{
+	width:100%;
+	height:auto;
+	vertical-align: middle;
+	border-radius:5px;
+}
+.icons{
+	position:absolute;
+	bottom:90px;
+	background-color:#fff;
+	width:100%;
+	height:auto;
+}
+.icons i{
+	padding-left:8px;
+	margin-left:20px;
+	font-size:14px;
+}
+.doctor-1 h4{
+	font-weight: 700;
+    margin-bottom: 5px;
+	margin-top:20px;
+	text-align:center;
+    font-size: 18px;
+    color: #555555;
+	font-family: "Roboto", sans-serif;
+}
+.doctor span{
+	display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+	text-align:center;
+}
+
+
+
+
+
+.gallery-flex{
+	width:100%;
+	height:auto;
+	margin-top:40px;
+}
+.gallery-flex h2{
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+	text-align:center;
+	font-family: "Roboto", sans-serif;
+	margin-bottom:15px;
+}
+.gallery-flex hr{
+	margin-bottom:10px;
+	width:70px;
+	margin-left:47%;
+	border:solid 1px deepskyblue;
+}
+.gallery-flex p{
+	text-align:center;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+	font-size:12px;
+}
+.gallery{
+	display:flex;
+	margin-top:40px;
+}
+.gallery-1{
+	width:20%;
+	height:auto;
+}
+.gallery-1 img{
+	height:auto;
+	width:100%;
+	padding:8px 8px;
+}
+.gallery-2{
+	width:20%;
+	height:auto;
+	border: 4px solid deepskyblue
+}
+.gallery-2 img{
+	height:auto;
+	width:100%;
+	padding:8px 8px;
+}
+.swipers{
+    display:flex;
+	justify-content:center;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.swipers-1{
+	width: 12px;
+    height: 12px;
+	margin-left:3px;
+	margin-right:3px;
+    background-color: #fff;
+    border: 1px solid #3fbbc0;
+	border-radius: 12px;
+}
+
+
+
+
+
+.pricing-flex{
+	height:auto;
+	width:100%;
+}
+.pricing-flex h2{
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+	text-align:center;
+}
+.pricing-flex p{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;	
+	text-align:center;
+	font-size:14px;
+	
+}
+.pricing{
+	display:flex;
+	margin-top:30px;
+}
+.pricing-1{
+	width:25%;
+	height:auto;
+}
+.pricing-1 h3{
+	text-align:center;
+	height:20px;
+	width:80px;
+	background-color:deepskyblue;
+}
+.pricing-1 h4{
+	text-align:center;
+}
+.pricing-2{
+	width:25%;
+	height:auto;
+}
+
