@@ -163,9 +163,10 @@
     margin-right: 35px;
 }
 .content-1 i{
-	    font-size: 48px;
+	    font-size: 45px;
     line-height: 1;
 	color:deepskyblue;
+	margin-bottom:20px;
 }
 .content-1 h1{
     font-family: sans-serif;
@@ -312,6 +313,7 @@
 	.details-1  i{
         font-size: 30px;
         color: #3fbbc0;  
+		
 	}
 	.details p {
       padding: 30px 3px 1px 23px;
@@ -357,8 +359,8 @@
        color: #848484;
        margin-left: 60px;
 	   margin-right:10px;
-	   margin-top: 0;
-       margin-bottom: 3rem;
+	   margin-top: 10px;
+       margin-bottom: 40px;
 	}
 	.lab-1 img{
 		width:100%;
@@ -366,6 +368,13 @@
         background-size: cover;
         height: 400px;
 	}
+	.lab-1 h3 i{
+	font-size: 42px;
+    float: left;
+    color: #3fbbc0;
+	background-color:#fff;
+	margin-right:10px;
+	} 
 	
 	
 	
@@ -377,12 +386,30 @@
 		width:100%;
 		margin-top:60px;
 	}
-	.service-flex h1{
+	.service-flex h2{
 		text-align:center;
+		font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+         position: relative;
+		 font-family: "Roboto", sans-serif;
+	}
+	.service-flex hr{
+		position:absolute;
+		border:solid 1px deepskyblue;
+		left:47%;
+		width:80px;
+		
 	}
 	.service-flex p{
 		text-align:center;
-	}
+		margin-top:50px;
+		font-family: "Open Sans", sans-serif;
+        color: #444444;
+		margin-bottom:30px;
+		font-size:14px;
+		}
 	.service{
 		display:flex;
 		flex-wrap:wrap;
@@ -390,6 +417,38 @@
 	.service-1{
 		width:33.33%;
 		height:300px;
+	}
+	.service-1 h3{
+		text-align:center;
+		margin-top:30px;
+		color: #444444;
+		font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	}
+	.service-1 h3:hover{
+		color:deepskyblue;
+		transition:0.3s;
+	}
+	.service-1 hr{
+		width:50px;
+		border: solid 1px deepskyblue;
+		
+	}
+	.service-1 p{
+		margin-top:30px;
+		text-align:center;
+		font-size:14px;
+	}
+	.service-1 i{
+		padding-left:180px;
+		display:inline-block;
+		font-size: 36px;
+        font-weight: 900;
+        line-height:-2;
+		font-family: "Font Awesome 6 Free";
+		    color: #3fbbc0;
 	}
 	
 	
@@ -823,17 +882,25 @@ color:skyblue;
 	font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 	font-family: "Open Sans", sans-serif;
     color: #444444;
 	text-align:center;
+	position:relative:
+}
+.pricing-flex hr{
+	width:60px;
+	border:solid 1px deepskyblue;
+	position:absolute;
+	left:47%;
 }
 .pricing-flex p{
     font-family: "Open Sans", sans-serif;
     color: #444444;	
 	text-align:center;
 	font-size:14px;
+	margin-top:40px;
 	
 }
 .pricing{
@@ -843,19 +910,100 @@ color:skyblue;
 .pricing-1{
 	width:25%;
 	height:auto;
+	margin-top:40px;
 }
 .pricing-1 h3{
 	text-align:center;
-	height:20px;
-	width:80px;
-	background-color:deepskyblue;
+	line-height:2.5;
+	color:grey;
+	font-family: "Roboto", sans-serif;
+	margin-bottom:30px;
+	background-color:#fff;
+	height:40px;
 }
 .pricing-1 h4{
 	text-align:center;
+	font-size: 36px;
+	font-family: "Roboto", sans-serif;
+    color: #3fbbc0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
 }
+.pricing-1 span{
+	font-size:14px;
+	font-family: "Roboto", sans-serif;
+	color:grey;
+}
+.pricing-1 p{
+	font-size:14px;
+	font-family: "Roboto", sans-serif;
+	color:grey;
+	margin-top:10px;
+}
+.pricing-1 button{
+	background: #3fbbc0;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+	margin-left:70px;
+	border:none;
+	margin-top:40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
 .pricing-2{
+	margin-top:40px;
 	width:25%;
 	height:auto;
+	margin-bottom:40px;
+}
+.pricing-2 h3{
+	text-align:center;
+	line-height:2.5;
+	margin-bottom:30px;
+	background-color:deepskyblue;
+	font-family: "Roboto", sans-serif;
+	height:40px;
+	color:white;
+}
+.pricing-2 h4{
+	text-align:center;
+	text-align:center;
+	font-size: 36px;
+	font-family: "Roboto", sans-serif;
+    color: #3fbbc0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+.pricing-2 span{
+	font-size:14px;
+	color:grey;
+}
+.pricing-2 p{
+	font-size:12px;
+	font-family: "Roboto", sans-serif;
+	color:grey;
+	margin-top:10px;
+}
+.pricing-2 button{
+	background: #3fbbc0;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+	border:none;
+	margin-left:70px;
+	margin-top:50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
 
@@ -886,6 +1034,8 @@ color:skyblue;
 	font-family: "Open Sans", sans-serif;
     color: #444444;
 	font-size:13px;
+	margin-top:50px;
+	text-align:center;
 }
 details p{
 	margin-left:20px;
